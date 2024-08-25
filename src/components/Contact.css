@@ -1,0 +1,31 @@
+.contactUsContainer{
+    height: 30vh;
+    background: rgb(238,247,255);
+    background: linear-gradient(90deg, rgb(236, 240, 244) 0%, rgba(208, 238, 251, 0.974) 40%, rgba(165, 222, 247, 0.974) 78%);
+    margin: 2rem;
+    margin-left: 4rem;
+    padding: 2rem;
+    padding-left: 4rem;
+    color: rgb(24, 26, 28);
+    border-radius: 2rem;
+}
+.contactUsContainer > h3{
+    margin-top:1rem;
+    margin-bottom: 4rem;
+}
+.contactIcon{
+    display: flex;
+}
+.contactIcon img{
+    padding: .5rem;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.contactIcon .github:hover {
+    background-color: rgb(237, 233, 233);
+}
+.contactIcon .linkedin:hover {
+    background-color: white;
+}

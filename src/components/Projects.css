@@ -1,0 +1,37 @@
+.outerContainer{
+    margin: 2rem;
+    margin-left: 4rem;
+    background: rgb(238,247,255);
+    background: linear-gradient(90deg, rgb(236, 240, 244) 0%, rgba(208, 238, 251, 0.974) 40%, rgba(165, 222, 247, 0.974) 78%);
+    text-align:center;
+    border-radius: 2rem;
+}
+.outerContainer > p{
+    font-size: xx-large;
+    padding-top: 1rem;
+}
+.outerContainer h1{
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+.innerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 2rem;   
+}
+@media only screen and(max-width:600px) {
+    .outerContainer{
+        padding: 1rem;
+        
+        border-radius: 1rem;
+    }
+    .outerContainer > p{
+        font-size: large;
+    }
+    .innerContainer{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction:column;
+    }
+}
