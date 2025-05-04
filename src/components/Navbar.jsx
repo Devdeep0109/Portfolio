@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src="./logo.png" alt="" />
       </div>
       <div className="rightNavbar">
-        <a href="https://drive.google.com/file/d/1jFkUr5lESmYb7IU7KQ0VjvDVm4-CQaOX/view?usp=drive_link">
+        <a href="https://drive.google.com/file/d/1DWmIJ9ErMLomKUIDvlbbIOKCnsZoo3cD/view?usp=drive_link">
           Resume
         </a>
         <a href="#contact">Contact</a>
